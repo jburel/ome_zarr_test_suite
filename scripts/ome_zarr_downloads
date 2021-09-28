@@ -1,2 +1,3 @@
 #!/usr/bin/env bash
 ome_zarr download "$@" --output download
+rm -rf download
